@@ -15,7 +15,7 @@ intStack[++intTop]=item;
 
 int popInt()   //define pop
 {
-return intStack[intTop--]
+return intStack[intTop--];
 }
 
 int evaluate(char *prefix) //defining function for evaluation of prefix
